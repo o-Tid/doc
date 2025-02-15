@@ -40,3 +40,4 @@ jobs:
             cd ~/doc
             docker compose pull
             docker compose up -d
+          strict_host_key_checking: false
