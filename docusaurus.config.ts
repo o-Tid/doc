@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config = {
-  title: 'O-Tid Dokumentasjon',
-  tagline: 'Dokumentasjon for O-Tid prosjekter',
+  title: 'O-Tid',
+  tagline: 'Enkel, pålitelig og moderne tidtaking for orienteringsarrangementer',
   favicon: 'img/favicon.ico',
   url: 'https://doc.o-tid.com',
   baseUrl: '/',
