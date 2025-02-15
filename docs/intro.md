@@ -25,5 +25,5 @@ For å komme i gang med O-Tid, følg disse stegene:
 
 ## Ressurser
 
-- [GitHub Repository](https://github.com/your-username/otid-docs)
+- [GitHub Repository](https://github.com/o-tid/doc)
 - [Support](mailto:support@o-tid.com)
