@@ -1,0 +1,119 @@
+:root {
+  /* Custom Color Palette */
+  --o-tid-orange: #ed5307;
+  --o-tid-orange-light: #ff7b3d;
+  --o-tid-orange-dark: #b33d05;
+
+  /* Primary Colors */
+  --ifm-color-primary: var(--o-tid-orange);
+  --ifm-color-primary-dark: var(--o-tid-orange-dark);
+  --ifm-color-primary-darker: #a33705;
+  --ifm-color-primary-darkest: #822c04;
+  --ifm-color-primary-light: var(--o-tid-orange-light);
+  --ifm-color-primary-lighter: #ff8f5b;
+  --ifm-color-primary-lightest: #ffab83;
+
+  /* Background and Text Colors */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f4f4f4;
+
+  /* Typography */
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --ifm-heading-font-weight: 600;
+}
+
+/* Dark mode theme */
+html[data-theme='dark'] {
+  --ifm-background-color: #121212;
+  --ifm-background-surface-color: #1e1e1e;
+  --ifm-color-primary: var(--o-tid-orange-light);
+  --ifm-color-primary-dark: var(--o-tid-orange);
+  --ifm-color-primary-darker: #ff6b3d;
+  --ifm-color-primary-darkest: #ff5722;
+  --ifm-color-primary-light: #ff9e6b;
+  --ifm-color-primary-lighter: #ffb28c;
+  --ifm-color-primary-lightest: #ffc7ab;
+}
+
+/* Navbar customization */
+.navbar {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+.navbar__title {
+  color: white;
+}
+
+.navbar__link {
+  color: white;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.navbar__link:hover {
+  color: white;
+  opacity: 1;
+}
+
+/* Button styles */
+.button {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border-color: var(--ifm-color-primary);
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: white;
+}
+
+/* Code blocks */
+.prism-code {
+  background-color: var(--ifm-background-surface-color) !important;
+}
+
+/* Links */
+a {
+  color: var(--ifm-color-primary);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--ifm-color-primary-darker);
+  color: white;
+}
+
+.footer__link-item {
+  color: rgba(255,255,255,0.7);
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: white;
+}
+
+/* Sidebar */
+.menu__link {
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.menu__link:hover,
+.menu__link--active {
+  color: var(--ifm-color-primary);
+  background-color: rgba(237, 83, 7, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  :root {
+    --ifm-font-size-base: 15px;
+  }
+}
