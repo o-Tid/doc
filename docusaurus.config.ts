@@ -56,7 +56,7 @@ const config = {
         },
         {to: '/blog', label: 'Nyheter', position: 'left'},
         {
-          href: 'https://github.com/your-username/otid-docs',
+          href: 'https://github.com/o-Tid/doc',
           label: 'GitHub',
           position: 'right',
         },
@@ -81,10 +81,6 @@ const config = {
               label: 'Timing',
               href: 'https://timing.o-tid.com',
             },
-            {
-              label: 'Git',
-              href: 'https://git.o-tid.com',
-            },
           ],
         },
         {
@@ -96,7 +92,7 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/your-username/otid-docs',
+              href: 'https://github.com/o-Tid/doc',
             },
           ],
         },
