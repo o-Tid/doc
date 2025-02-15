@@ -23,7 +23,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/category/api">
+            to="/docs/intro">
             Se dokumentasjon
           </Link>
         </div>
