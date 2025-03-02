@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config = {
-  title: 'O-Tid',
-  tagline: 'Enkel, pålitelig og moderne tidtaking for orienteringsarrangementer',
+  title: 'o-Tid',
+  tagline: 'En måte å gjøre tidtaking for orienteringsarrangementer enklere',
   favicon: 'img/favicon.ico',
   url: 'https://doc.o-tid.com',
   baseUrl: '/',
@@ -26,13 +26,15 @@ const config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.js',
+          routeBasePath: '/',
+          sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/your-username/otid-docs/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/your-username/otid-docs/tree/main/',
-        },
+        blog: false,
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl: 'https://github.com/your-username/otid-docs/tree/main/',
+        // },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -54,7 +56,7 @@ const config = {
           position: 'left',
           label: 'Dokumentasjon',
         },
-        {to: '/blog', label: 'Nyheter', position: 'left'},
+        // {to: '/blog', label: 'Nyheter', position: 'left'},
         {
           href: 'https://github.com/o-Tid/doc',
           label: 'GitHub',

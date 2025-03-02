@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Nøyaktig Tidtaking',
+    title: 'Tidtaking enkelt',
     Icon: Timer,
     description: (
       <>
@@ -16,7 +16,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Løypeoversikt',
+    title: 'Fleksibel løype oppsett',
     Icon: Map,
     description: (
       <>
@@ -36,12 +36,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Påmelding',
+    title: 'Påmeldinger fra Eventor',
     Icon: Users,
     description: (
       <>
-        Enkel håndtering av påmeldinger og deltakerlister.
-        Støtte for både individuelle og klubbpåmeldinger.
+        Enkel håndtering av påmeldinger og deltakere fra Eventor med et klikk.
       </>
     ),
   },
@@ -51,7 +50,7 @@ const FeatureList = [
     description: (
       <>
         Effektiv registrering av målgang og resultater.
-        Automatisk beregning av sluttider og plasseringer.
+        Egen strekktidslapp med disksjekk.
       </>
     ),
   },
@@ -60,8 +59,7 @@ const FeatureList = [
     Icon: Trophy,
     description: (
       <>
-        Omfattende resultatlister med splittider og rangering.
-        Eksport til ulike formater for publisering.
+        Lokal utskrift av lister og opplasting til Eventor.
       </>
     ),
   },
