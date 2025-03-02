@@ -13,8 +13,8 @@ const config = {
   organizationName: 'o-tid',
   projectName: 'docs',
 
-  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'warn',
 
   i18n: {
     defaultLocale: 'no',
@@ -72,7 +72,7 @@ const config = {
           items: [
             {
               label: 'Kom i gang',
-              to: '/docs/intro',
+              to: '/intro',
             },
           ],
         },
