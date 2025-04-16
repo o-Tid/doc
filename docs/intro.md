@@ -10,8 +10,8 @@ Velkommen til O-Tid dokumentasjonen.
 
 O-Tid tilbyr flere tjenester for orienterings-arrangementer:
 
-- **Timing** - Tidtakingssystem for orienteringsløp
-- **Resultater** - Visning av resultater i sanntid (liveresultater)
+- **Timing** - Tidtakingssystem for orienteringsløp ([Tidtaging](https://next.o-tid.com))
+- **Resultater** - Visning av resultater i sanntid ([Live resultater](https://live.o-tid.no))
 
 
 ## Kom i gang
@@ -26,4 +26,4 @@ Etter uttestingsfasen vil oTid bli tilgjengelig for mere klubber etter ferie/hø
 ## Ressurser
 
 - [GitHub Repository](https://github.com/o-Tid/doc)
-- [Support](mailto:knut@helstad.com)
+- [Support (e-post)](mailto:knut@helstad.com)

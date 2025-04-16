@@ -80,8 +80,12 @@ const config = {
           title: 'Tjenester',
           items: [
             {
-              label: 'Timing',
-              href: 'https://timing.o-tid.com',
+              label: 'Tidtaging med o-Tid',
+              href: 'https://next.o-tid.com',
+            },
+            {
+              label: 'Liveresultater for o-Tid',
+              href: 'https://live.o-tid.no',
             },
           ],
         },
@@ -89,11 +93,7 @@ const config = {
           title: 'Mer',
           items: [
             {
-              label: 'Nyheter',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
+              label: 'GitHub for o-Tid Docs',
               href: 'https://github.com/o-Tid/doc',
             },
           ],

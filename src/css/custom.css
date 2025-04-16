@@ -117,3 +117,55 @@ a:hover {
     --ifm-font-size-base: 15px;
   }
 }
+
+
+img[alt=Icon-liveresultater] {
+  width: 150px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Icon-meny] {
+  width: 150px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Icon-Ikonklokke] {
+  width: 150px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Icon-Ikonprinter] {
+  width: 150px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Liveresulteter-1] {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img[alt=Liveresulteter-2] {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img[alt=Klokkeform1] {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img[alt=Klokkeform2] {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img[alt=Printerform] {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,65 @@
+
+### Forberede import
+Hvordan legge man inn løype fil fra OCAD eller PurplePen
+
+oTid støtter import fra en IOF XML 3.0 løype fil
+
+OCAD og PurplePen har export av en slik fil (PurplePen har ikke oppsett for klasser). _Finnes sikkert flere programmer for løype legging_
+:::tip[Tips]
+
+
+Får at import skal kunne koble klasser og løyper i oTid fra en IOF XML fil.
+Må man i OCAD sette opp klasser og løyper. (Klasse navn må stemme med Eventor. Viktig å for Livelox).
+:::
+
+`Importer Løyper (IOF XML 3.0)` kan man finne i menyen oppe til høyre ![Icon-meny](/img/Ikonmeny.png)
+
+|![Import-loyper](/img/importiofxml_1.png)|
+|-|
+
+- Importen begynner med at man velger mål post for arrangement. Her 249
+- Så kan man enten dra xml filen inn i den grå boksen på toppen eller klikke på den å velge fil.
+Da vil man se alle løyper og poster som er i filen
+- Hvis dette ser rett ut trykker man på `IMPORTER LØYPER`. Klikk `JA` på meldingen.
+
+### Etter import
+
+Det er viktig å sjekke at koblingen mellom klasser å løyper har gått rett.
+:::warning[Varsel]
+!! Import fra PurplePen gjør ikke denne koblingen(Dette må da gjøres manuelt)
+:::
+|![Import-loyper-klasser](/img/importiofxml_4.png)|
+|-|
+
+Man ser da etter om det finnes løype for klassen. I dette eksemplet har ikke klassen `A` blitt tildelt løype.
+Får å rette på det så klikker man på blyanten for klassen å får opp denne for å redigere.
+
+|![Import-loyper-klasser](/img/importiofxml_5.png)|
+|-|
+
+Velg rett løype og trykk `LAGRE`
+
+
+### Poster
+Etter import kan man klikke på `Poster` får å se alle poster som er importert
+
+|![Import-poster](/img/importiofxml_2.png)|
+|-|
+
+Enten man er inne på valget `Importer Løyper (IOF XML 3.0)` eller `Poster` i menyen oppe til høyre. Kan men editere poster.
+
+- Legge til post (Trykk å `+ LEGG TIL POST`. Ny post havner nederst i listen)
+- Endre postnummer (foreksempel at mål post er noe annet en planlagt. Trykk på blyanten for å endre i listen for Post nr.)
+- Endre post til at den ikke skal være med i løypesjekk (Død postenhet. Trykk på blyanten for å endre i listen for status)
+- Slette post. (Trykk på søppeldunken for Posten du vil slette)
+
+### Løyper
+
+|![Import-loyper](/img/importiofxml_3.png)|
+|-|
+
+Enten man er inne på valget `Importer Løyper (IOF XML 3.0)` eller `Løyper` i menyen oppe til høyre. Kan man editere løyper.
+
+- Legge til post for løype (Post må legges til under `Post` først). Velg nummer og lagre linjen. Klikk og dra den til rett plass i løypen
+- Endre post for løype. (Trykk på blyanten for å endre i listen for Post nr.)
+- Slette post fra løype. (Trykk på søppeldunken for Posten du vil slette fra løypa)
