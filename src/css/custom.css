@@ -169,3 +169,74 @@ img[alt=Printerform] {
   margin-left: auto;
   margin-right: auto;
 }
+
+img[alt=Status-pameldt] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Status-utmeldt] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Status-ute] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Status-ok] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Status-dnf] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Status-dsq] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Status-dns] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Handling-loypesjekk] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Handling-loperute] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Handling-edit] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Handling-slett] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Handling-leggtil] {
+  height: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Handling-hentfraeventor] {
+  height: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
+img[alt=Handling-oppdater] {
+  height: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}

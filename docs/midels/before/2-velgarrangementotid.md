@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Velg arrangement i oTid
+title: Velg arrangement i O-Tid
 ---
 
 import VelgArrangement from '../../_felles/_velgarrangementotid.mdx'

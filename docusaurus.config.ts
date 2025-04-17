@@ -5,12 +5,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config = {
-  title: 'o-Tid',
+  title: 'O-Tid',
   tagline: 'En måte å gjøre tidtaking for orienteringsarrangementer enklere',
   favicon: 'img/favicon.ico',
   url: 'https://doc.o-tid.com',
   baseUrl: '/',
-  organizationName: 'o-tid',
+  organizationName: 'O-Tid',
   projectName: 'docs',
 
   onBrokenMarkdownLinks: 'warn',
@@ -19,6 +19,10 @@ const config = {
   i18n: {
     defaultLocale: 'no',
     locales: ['no'],
+  },
+
+  customFields: {
+    construction: true,
   },
 
   presets: [

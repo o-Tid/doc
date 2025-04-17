@@ -1,3 +1,3 @@
-# oTid dokumentasjon
+# O-Tid dokumentasjon
 
-Dette er en enkel dokumentasjon for oTid.
+Dette er en enkel dokumentasjon for O-Tid.

@@ -16,11 +16,11 @@ O-Tid tilbyr flere tjenester for orienterings-arrangementer:
 
 ## Kom i gang
 
-Hvordan kan jeg komme i gang med oTid?
+Hvordan kan jeg komme i gang med O-Tid?
 
-Ettersom oTid et i en kontrolert uttestingsfase, er det ikke mulig å bruke systemet enda uten spesiell invitasjon.
+Ettersom O-Tid et i en kontrolert uttestingsfase, er det ikke mulig å bruke systemet enda uten spesiell invitasjon.
 
-Etter uttestingsfasen vil oTid bli tilgjengelig for mere klubber etter ferie/høst 2025.
+Etter uttestingsfasen vil O-Tid bli tilgjengelig for mere klubber etter ferie/høst 2025.
 
 
 ## Ressurser
