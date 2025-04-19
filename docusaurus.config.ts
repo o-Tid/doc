@@ -62,6 +62,11 @@ const config = {
         },
         // {to: '/blog', label: 'Nyheter', position: 'left'},
         {
+          href: 'https://nect.o-tid.com',
+          label: 'Tidtaking',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/o-Tid/doc',
           label: 'GitHub',
           position: 'right',
@@ -84,7 +89,7 @@ const config = {
           title: 'Tjenester',
           items: [
             {
-              label: 'Tidtaging med o-Tid',
+              label: 'Tidtaking med o-Tid',
               href: 'https://next.o-tid.com',
             },
             {

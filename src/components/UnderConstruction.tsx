@@ -13,9 +13,9 @@ function UnderConstruction() {
       borderRadius: '8px',
     //   border: '2px dashed #F57F17'
     }}>
-      <Construction size={32} color="#F57F17" style={{ marginRight: '8px' }} />
-      <span style={{ color: '#F57F17', fontSize: '1.7rem' }}>Denne siden er under oppføring, skrivefeil og dårlige formuleringer kan forekomme </span>
-      <HardHat size={32} color="#F57F17" style={{ marginLeft: '8px' }} />
+      {/* <Construction size={32} color="#F57F17" style={{ marginRight: '8px' }} /> */}
+      <span style={{ color: '#F57F17', fontSize: '1.7rem' }}>🚧 Under utvikling 🚧 </span>
+      {/* <HardHat size={32} color="#F57F17" style={{ marginLeft: '8px' }} /> */}
     </div>
   );
 }

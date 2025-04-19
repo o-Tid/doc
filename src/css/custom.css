@@ -230,6 +230,7 @@ img[alt=Handling-leggtil] {
   vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
   margin-left: 10px;
 }
+
 img[alt=Handling-hentfraeventor] {
   height: 40px;
   vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
@@ -239,4 +240,16 @@ img[alt=Handling-oppdater] {
   height: 40px;
   vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
   margin-left: 10px;
+}
+img[alt=Brikke-melding] {
+  height: 35px;
+  width: auto;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+
+}
+img[alt=Nedtrekk_klasse] {
+  height: 300px;
+  width: auto;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+
 }

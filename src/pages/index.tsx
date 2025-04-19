@@ -17,10 +17,17 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <UnderConstruction />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link className="button button--primary button--lg" to="/intro">
-            Kom i gang
-          </Link>
+        <div style={{ display: "flex", flexDirection: "row", justifyContent: "center" }}>
+          <div className={styles.buttons} style={{ marginRight: "20px" }}>
+            <Link className="button button--primary button--lg" to="/intro">
+              Til dokumentasjon
+            </Link>
+          </div>
+          <div className={styles.buttons}>
+            <Link className="button button--primary button--lg" to="https://next.o-tid.com/">
+              Til Tidtaking
+            </Link>
+          </div>
         </div>
       </div>
     </header>
