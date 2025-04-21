@@ -170,6 +170,11 @@ img[alt=Printerform] {
   margin-right: auto;
 }
 
+img[alt=Status-ledig] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+  margin-left: 10px;
+}
 img[alt=Status-pameldt] {
   width: 40px;
   vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
@@ -247,7 +252,13 @@ img[alt=Brikke-melding] {
   vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
 
 }
-img[alt=Nedtrekk_klasse] {
+img[alt=Nedtrek_klasse] {
+  height: 300px;
+  width: auto;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+
+}
+img[alt=Nedtrek_status] {
   height: 300px;
   width: auto;
   vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
