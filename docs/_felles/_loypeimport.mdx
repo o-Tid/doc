@@ -1,13 +1,13 @@
 
 ### Forberede import
-Hvordan legger man inn løype fil fra OCAD eller PurplePen
+Hvordan importere en løype fil fra OCAD eller PurplePen som har løper og poster.
 
-O-Tid støtter import fra en IOF XML 3.0 løype fil
+O-Tid støtter import fra en IOF XML 3.0 (__IKKE__ 2.0) løype fil
 
-OCAD og PurplePen har export av en slik fil (PurplePen har ikke oppsett for klasser). _Finnes sikkert flere programmer for løype legging_
+OCAD og PurplePen har export av en slik fil i sitt program (PurplePen har ikke oppsett for klasser). _Finnes sikkert flere programmer for løype legging_
 :::tip[Tips]
 For at import skal kunne koble klasser og løyper i O-Tid fra en IOF XML fil,
-må man i OCAD sette opp klasser og løyper. (Klasse navn må stemme med Eventor. Dette er også viktig for Livelox).
+må man i OCAD sette opp klasser og løyper. (Klassenavn i OCAD må stemme med klassenavn i Eventor. Dette er også viktig for Livelox).
 :::
 
 `Importer Løyper (IOF XML 3.0)` kan man finne i menyen oppe til høyre ![Icon-meny](/img/Ikonmeny.png)
@@ -15,14 +15,14 @@ må man i OCAD sette opp klasser og løyper. (Klasse navn må stemme med Eventor
 |![Import-loyper](/img/importiofxml_1.png)|
 |-|
 
-- Importen begynner med at man velger mål post for arrangement. Her 249
+- Importen begynner med at man velger målpost for arrangement. Her 249
 - Så kan man enten dra xml filen inn i det grå feltet på toppen eller klikke på det og velge fil.
 Da vil man se alle løyper og poster som er i filen
 - Hvis dette ser riktig ut trykker man på `IMPORTER LØYPER`. Klikk `JA` på meldingen.
 
 ### Etter import
 
-Det er viktig å sjekke at koblingen mellom klasser å løyper har skjedd.
+Det er viktig å sjekke at koblingen mellom klasser og løyper riktig.
 :::warning[Varsel]
 !! Import fra PurplePen gjør ikke denne koblingen (Dette må da gjøres manuelt)
 :::
@@ -30,7 +30,7 @@ Det er viktig å sjekke at koblingen mellom klasser å løyper har skjedd.
 |-|
 
 Sekk om det finnes løype for klassen. I dette eksemplet har ikke klassen `A` blitt tildelt løype.
-For å rette på dette så klikker man på blyanten for klassen og får opp denne for å redigere.
+For å rette på dette så klikker man på blyanten for klassen og får opp denne dialogboksen for å redigere.
 
 |![Import-loyper-klasser](/img/importiofxml_5.png)|
 |-|
@@ -46,10 +46,10 @@ Etter import kan man klikke på `Poster` for å se alle poster som er importert
 
 Enten man er inne på valget `Importer Løyper (IOF XML 3.0)` eller `Poster` i menyen oppe til høyre, kan man editere poster.
 
-- Legge til post (Trykk `+ LEGG TIL POST`. Ny post havner nederst i listen)
-- Endre postnummer (foreksempel at mål post er noe annet en planlagt. Trykk på blyanten for å endre i listen for Post nr.)
-- Endre post til at den ikke skal være med i løypesjekk (Død postenhet. Trykk på blyanten for å endre i listen for status)
-- Slette post. (Trykk på søppeldunken for Posten du vil slette)
+- Legge til post (Trykk ![Handling-leggtil](/img/leggtilpost.png). Ny post havner nederst i listen)
+- Endre postnummer (f.eks at mål post ikke er som planlagt. Trykk på blyanten ![Handling-edit-uten](/img/handling_edit.png) for å endre i kolonnen for `Post nr.`)
+- Endre post til at den ikke skal være med i løypesjekk (Død postenhet. Trykk på blyanten ![Handling-edit-uten](/img/handling_edit.png) for å endre i listen for status)
+- Slette post. (Trykk på søppeldunken ![Handling-slett-uten](/img/handling_slett.png)  for Posten du vil slette)
 
 ### Løyper
 
@@ -58,6 +58,6 @@ Enten man er inne på valget `Importer Løyper (IOF XML 3.0)` eller `Poster` i m
 
 Enten man er inne på valget `Importer Løyper (IOF XML 3.0)` eller `Løyper` i menyen oppe til høyre, kan man editere løyper.
 
-- Legge til post for løype (Post må legges til under `Post` først). Velg nummer og lagre linjen. Klikk og dra den til rett plass i løypen
-- Endre post for løype. (Trykk på blyanten for å endre i listen for Post nr.)
-- Slette post fra løype. (Trykk på søppeldunken for Posten du vil slette fra løypa)
+- Legge til post for løype (Hvis det er en ny fysisk Post må legges til under `Poster` først). Velg nummer og lagre linjen. Klikk og dra denne ![Icon-handtak](/img/handtak.png) til rett plass i løypen
+- Endre post for løype. (Trykk på blyanten ![Handling-edit-uten](/img/handling_edit.png) for å endre i listen for Post nr.)
+- Slette post fra løype. (Trykk på søppeldunken ![Handling-slett-uten](/img/handling_slett.png) for Posten du vil slette fra løypa)

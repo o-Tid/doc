@@ -37,7 +37,7 @@ Husk å legge på brikke en gang til for å gjøre brikkesjekk.
 
 :::info[informasjon]
 Hvis deltager skal bytte til en klasse som har starttid så vil det være mulig hvis det er ledige startnummer i den klassen.<br />
-Dette vises i nedtrekksmeny for klasser.<br />
+Dette vises i rullegardinmenyen for klasser.<br />
 
 ![Nedtrek_klasse](/img/nedtrek_klasse.png)
 

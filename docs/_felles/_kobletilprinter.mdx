@@ -2,18 +2,18 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import Kobletilprinterotid from "./_kobletilprinterotid.mdx";
 
-Bruke O-Tid til å printe strekktidslapp har en del fordeler som ikke direkte strekktidslapp fra klokken har.
+Bruke O-Tid til å printe strekktidslapp har en del fordeler som ikke direkte strekktidslapp fra klokken (eScan2, MTR4) har.
 
 - Info om deltager
-- Klasse og løype som deltager satt opp med
-- Slutt tid med min/km
-- Strekk tids liste med brikkesjekk intigrert
+- Klasse og løype som deltager er satt opp med
+- Sluttid og tempo min/km
+- Strekktids liste med brikkesjekk integrert
 - Arrangør egen info
-- QR link til liveres (EPR-4)
+- QR link til liveres (Bare EPR-4)
 
-### ERP-4 (printer som føger eScan2)
+### ERP-4 (printer som følger eScan2)
 
-Får å bruke ERP-4 i O-Tid må man gjøre noen oppsett
+For å bruke ERP-4 i O-Tid må man gjøre noen ekstra oppsett
 
 - Fjerne kobling mellom eScan2 og printer hvis den finnes
 - Printer må kobles til pc med Bluetooth
@@ -25,7 +25,7 @@ Hvis printer har blått lys når klokke og printer er på må du gjøre dette (S
 
 #### Koble printer til pc over Bluetooth
 
-Når printer ikke har noe blått lys så er den klar til å parres med PC, Chromebook
+Når printer ikke har noe blått lys er den klar til å parres med PC, Chromebook
 
 <Tabs
   defaultValue="windows"
@@ -40,12 +40,12 @@ Når printer ikke har noe blått lys så er den klar til å parres med PC, Chrom
         - Åpne `Settings` og velg `Bluetooth og enheter`
         - Trykk `Legg til enhet` og velg `Bluetooth`
         - Du skal da finne en enhet som heter `WOOSIM BR/EDR`
-        - Koble til å hvis du blir spurt om kode for tilkobling så er det `1234`
-        - Da er den klar til at O-Tid kan bruke printeren
+        - Koble til og hvis du blir spurt om kode for tilkobling er det `1234`
+        - Da er den klar for at O-Tid kan bruke printeren
 
         :::info[Informasjon]
-        Valgene ovenfor gjør man bare først gang man skal bruke printeren. <br />
-        Hvis klokke å printer er koblet tilbake mellom hver gang man bruker den i oTid så må man gjøre dette (Se [Klokke instillinger](#klokke-printer) )
+        Valgene ovenfor gjør man bare første gang man skal bruke printeren. <br />
+        Hvis klokke og printer er koblet tilbake mellom hver gang man bruker den i oTid må man gjøre dette (Se [Klokke instillinger](#klokke-printer) )
         :::
 
         <Kobletilprinterotid />

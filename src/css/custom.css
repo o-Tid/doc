@@ -225,10 +225,18 @@ img[alt=Handling-edit] {
   vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
   margin-left: 10px;
 }
+img[alt=Handling-edit-uten] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+}
 img[alt=Handling-slett] {
   width: 40px;
   vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
   margin-left: 10px;
+}
+img[alt=Handling-slett-uten] {
+  width: 40px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
 }
 img[alt=Handling-leggtil] {
   height: 40px;
@@ -245,6 +253,11 @@ img[alt=Handling-oppdater] {
   height: 40px;
   vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
   margin-left: 10px;
+}
+img[alt=Icon-handtak] {
+  width: 24px;
+  vertical-align: middle; /* Alternativt: top, text-top, bottom, text-bottom */
+
 }
 img[alt=Brikke-melding] {
   height: 35px;
