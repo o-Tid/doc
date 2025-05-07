@@ -62,7 +62,7 @@ const config = {
         },
         // {to: '/blog', label: 'Nyheter', position: 'left'},
         {
-          href: 'https://nect.o-tid.com',
+          href: 'https://next.o-tid.com',
           label: 'Tidtaking',
           position: 'right',
         },
