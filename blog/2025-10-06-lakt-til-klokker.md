@@ -15,7 +15,7 @@ Klokker som er lagt til er:
 
 Det er å lakt inn at klokken blir stilt til PC tiden ved tilkopling.
 
-ECU settes også til kode 250 og protokoll 0 ved tilkopling.
+ECU settes også til kode 250 og protokoll 0 ved tilkopling. (Se mer under [Tilkobling av klokke](/simpel/under/kobletilutstyr#tilkobling-av-klokke) )
 
 
 
