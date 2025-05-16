@@ -70,6 +70,11 @@ const config = {
         },
         { to: "/blog", label: "Nyheter", position: "right" },
         {
+          href: "https://live.o-tid.no",
+          label: "Liveresultater",
+          position: "right"
+        },
+        {
           href: "https://next.o-tid.com",
           label: "Tidtaking",
           position: "right"
