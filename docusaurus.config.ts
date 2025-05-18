@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config = {
   title: "O-Tid",
-  tagline: "En måte å gjøre tidtaking for orienteringsarrangementer enklere",
+  tagline: "En måte å gjøre tidtaking for orientering enklere",
   favicon: "img/favicon.ico",
   url: "https://doc.o-tid.com",
   baseUrl: "/",

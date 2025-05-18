@@ -20,12 +20,12 @@ function HomepageHeader() {
         <div style={{ display: "flex", flexDirection: "row", justifyContent: "center" }}>
           <div className={styles.buttons} style={{ marginRight: "20px" }}>
             <Link className="button button--primary button--lg" to="/intro">
-              Til dokumentasjon
+              Dokumentasjon
             </Link>
           </div>
           <div className={styles.buttons}>
             <Link className="button button--primary button--lg" to="https://next.o-tid.com/">
-              Til Tidtaking
+              Tidtaking
             </Link>
           </div>
         </div>
